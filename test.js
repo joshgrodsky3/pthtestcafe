@@ -10,17 +10,6 @@ fixture `podium webchat`
     this.locationSelect = Selector('button').withText('Scoreboard Sports')
     this.locationSearch = (Selector('input').withAttribute('name', 'Search Locations')
     this.locationClear = Selector('button').withAttribute('class', 'SearchInput__Reset')
-    this.delete = Selector("[data-test-id='delete-selected-records']");
-    this.confirmDelete = Selector("[data-test-id='confirm-delete']");
-    this.newRule = Selector("[data-test-id='create-new-rule']");
-    this.ruleCount = Selector("[data-test-id='all-count']");
-
-    this.ruleNames = Selector("[data-test-id='rule-name']");
-    this.ruleTypes = Selector("[data-test-id='rule-type']")
-    this.isActive = Selector("[data-test-id='active']");
-    this.selects = Selector("[data-test-id='select'")
-
-    this.spinner = Selector("[data-test-id='spinner']")
 	}
 
 
